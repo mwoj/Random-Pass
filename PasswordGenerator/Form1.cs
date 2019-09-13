@@ -24,6 +24,7 @@ namespace PasswordGenerator
         public Form1()
         {
             InitializeComponent();
+            UpdateGenerateButton();
             Text = $@"Password Generator Beta v{VersionNumber}";
         }
 
