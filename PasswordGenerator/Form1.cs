@@ -25,7 +25,7 @@ namespace PasswordGenerator
         {
             InitializeComponent();
             UpdateGenerateButton();
-            Text = $@"Password Generator Beta v{VersionNumber}";
+            Text = $@"Random-Pass (Beta) v{VersionNumber}";
         }
 
         private void rdbtnDefault_CheckedChanged(object sender, EventArgs e)

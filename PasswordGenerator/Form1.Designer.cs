@@ -31,6 +31,7 @@
             this.rdbtnDefault = new System.Windows.Forms.RadioButton();
             this.rdbtnCustom = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblDefaultCharSet = new System.Windows.Forms.Label();
             this.lblEnterCharacters = new System.Windows.Forms.Label();
             this.txtboxCustomCharSet = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -42,7 +43,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.passwordLengthObj = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblDefaultCharSet = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -87,6 +87,17 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Step 1";
+            // 
+            // lblDefaultCharSet
+            // 
+            this.lblDefaultCharSet.AutoSize = true;
+            this.lblDefaultCharSet.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblDefaultCharSet.Location = new System.Drawing.Point(12, 44);
+            this.lblDefaultCharSet.Name = "lblDefaultCharSet";
+            this.lblDefaultCharSet.Size = new System.Drawing.Size(269, 26);
+            this.lblDefaultCharSet.TabIndex = 4;
+            this.lblDefaultCharSet.Text = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQR\r\nSTUVWXYZ1234567890,./;\'[]\\\\-=()<>?:" +
+    "\\\"{}|_+`~";
             // 
             // lblEnterCharacters
             // 
@@ -212,17 +223,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter Password Length:";
             // 
-            // lblDefaultCharSet
-            // 
-            this.lblDefaultCharSet.AutoSize = true;
-            this.lblDefaultCharSet.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblDefaultCharSet.Location = new System.Drawing.Point(12, 44);
-            this.lblDefaultCharSet.Name = "lblDefaultCharSet";
-            this.lblDefaultCharSet.Size = new System.Drawing.Size(269, 26);
-            this.lblDefaultCharSet.TabIndex = 4;
-            this.lblDefaultCharSet.Text = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQR\r\nSTUVWXYZ1234567890,./;\'[]\\\\-=()<>?:" +
-    "\\\"{}|_+`~";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -237,7 +237,7 @@
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Password Generator Beta <VERSION_NUMBER>";
+            this.Text = "Random-Pass (Beta) <VERSION_NUMBER>";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
